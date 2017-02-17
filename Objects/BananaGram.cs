@@ -14,6 +14,10 @@ namespace Anagram.Objects
       _word = word;
       _anagramList = wordList;
     }
+    public string GetWord ()
+    {
+      return _word;
+    }
 
     public List<string> ListOfAnagrams ()
     {
